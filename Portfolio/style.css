@@ -1,0 +1,234 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Futura, ‘sans-serif’
+}
+
+header {
+	height: 450px;
+	background:url(img/img.jpg) center center;
+	background-size: cover;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+header nav{
+	float: right;
+	margin: 30px 30px 60px 0;
+}
+
+header nav a {
+	margin-left: 20px;
+	margin-top: 10px;
+	color: rgba(0,0,0,0.7);
+	font-size: 14px;
+	text-decoration: none;
+}
+
+header nav a:hover{
+	color: rgba(255,255,255,1);
+}
+
+.title{
+	clear: both;
+	font-size: 72px;
+	color: white;
+	letter-spacing: 0.05em;
+	border: white solid 10px;
+	margin: 0px 150px 20px 150px;
+}
+
+.smal{
+	letter-spacing: 0.05em;
+	color: white;
+}
+
+header img {
+	width: 30px;
+	height: 50px;
+	margin-top: 35px;
+	padding: 10px;
+}
+
+.info{
+	text-transform: uppercase;
+	color: white;
+	float: right;
+	font-family: Futura, sans-serif;
+	font-size: 12px;
+	font-weight:700;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+}
+
+
+.info img{
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin: 10px;
+	border-radius: 30px;
+}
+
+.info h1{
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 0.05em;
+	padding-bottom: 70px;
+
+}
+
+.info nav a {
+	display: inline-block;
+	color: rgba(0,0,0,0.7);
+	font-size: 14px;
+	text-decoration: none;
+	border: white solid 3px;
+	margin-top: 40px; 
+	padding: 5px 10px;
+}
+
+.info nav a:hover{
+	color: rgba(255,255,255,1);
+}
+
+#blog {
+	background-color: red;
+	padding: 80px 15px 150px 15px;
+    animation: random 200s infinite;
+}
+@keyframes  random {
+    15% { background-color: red; } 
+    30% { background-color: #EFCC00; } 
+    45% { background-color: green; } 
+    60% { background-color: darkblue; }
+    75% { background-color: #333; }  
+}
+
+.addText {
+	padding: 40px 20px 20px 20px;
+}
+
+.addText p{
+	text-transform: uppercase;
+	color: darkblue;
+	font-family: Futura, sans-serif;
+	font-size: 12px;
+	font-weight:700;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+}
+
+input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+    width: 85%;
+    padding: 12px 20px;
+    margin: 10px;
+}
+
+#content {
+	height: 90px;
+}
+
+button {
+	background-color: green;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 0px 0px 10px 10px;
+    cursor: pointer;
+}
+
+#contact {
+	text-transform: uppercase;
+	background-color: #3CBC8D;
+	color: white;
+	font-family: Futura, sans-serif;
+	font-size: 12px;
+	font-weight:700;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	padding: 10px;
+}
+
+#contact h1 {
+	text-align: center;
+	color: red;
+	padding: 20px 0;
+}
+
+#contact h3 {
+	color: #333;
+}
+
+footer {
+	background:url(img/img.jpg) center bottom;
+	background-size: cover;
+	height: 135px;
+}
+footer .lock{
+	padding: 30px;
+	float: left;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	color:white;
+}
+
+footer nav a {
+	margin-left: 20px;
+	margin-top: 10px;
+	color: rgba(0,0,0,0.7);
+	font-size: 14px;
+	text-decoration: none;
+}
+
+footer nav a:hover{
+	color: rgba(255,255,255,1);
+}
+
+/* Соціальні мережі */
+
+.social ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 150px;
+    left: 0px;
+    z-index: 1;
+}
+
+.social li {
+	float: left;
+}
+
+.social li a {
+	display: block;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.social li a img {
+	width: 30px;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
